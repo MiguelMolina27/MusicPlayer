@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedList</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container__container-music-player">
+        <div id="container__container-tracks">
+
+        </div>
+        <div id="container__container-currentTrack">
+
+        </div>
+        <div id="container__container-controls">
+            <input type="checkbox" id="input__input-autoPlay">
+            <label for="input__input-autoPlay">AutoPlay</label>
+            <button id="button__button-controls__prev"><img src="./src/images/prev.png" alt=""></button><button id="button__button-controls__play"><img src="./src/images/playPause.png" alt=""></button><button id="button__button-controls__next"><img src="./src/images/next.png" alt=""></button>
+            <label for="input__input-track">Agregar a la Playlist</label>
+            <input type="file" id="input__input-track">
+            <button id="button__button-addPlaylist">+</button>
+        </div>
+        <button id="button__button-removeTrack">Eliminar Cancion</button>
+    </div>
+    <script type="module" src="./src/controllers/index.js"></script>
+</body>
+</html>
